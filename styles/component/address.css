@@ -1,0 +1,16 @@
+.address {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135%;
+}
+
+.address a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.address address {
+  font-style: normal;
+}
