@@ -1,15 +1,16 @@
 /* cover */
 .cover {
   position: relative;
-  z-index: -1;
+  z-index: 1;
   background-image: url(../../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .overlay {
   position: absolute;
-  z-index: -1;
+  z-index: 2;
   width: 100%;
   height: 100%;
   opacity: 0.6;
@@ -17,6 +18,8 @@
 }
 
 .cover__title {
+  position: relative;
+  z-index: 3;
   display: flex;
   flex-direction: column;
   padding-top: 165px;
@@ -57,6 +60,8 @@
 }
 
 .cover__description {
+  position: relative;
+  z-index: 3;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -73,6 +78,7 @@
   line-height: 28px; /* 127.273% */
   text-align: center;
   text-transform: uppercase;
+  font-weight: 400;
   word-spacing: 18px;
 }
 
@@ -120,7 +126,7 @@
 
 .card {
   position: relative;
-  z-index: -1;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -128,6 +134,7 @@
   /* padding: 50px 40px; */
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .card_type_film {
@@ -143,6 +150,8 @@
 }
 
 .card__title {
+  position: relative;
+  z-index: 3;
   margin: 50px 40px 0 40px;
   color: #FFF;
   font-weight: 700;
@@ -154,6 +163,8 @@
 }
 
 .card__text {
+  position: relative;
+  z-index: 3;
   margin: 0 40px 50px 40px;
   color: #FFF;
   font-weight: 400;

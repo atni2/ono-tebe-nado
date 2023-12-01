@@ -2,7 +2,7 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr) ;
   place-items: center;
-  margin: 92px 49px 92px 51px;
+  padding: 92px 49px 92px 51px;
 }
 
 .header__menu {
@@ -46,5 +46,4 @@ header {
   display: flex;
   justify-self: end;
   align-items: center;
-  height: 100%;
 }

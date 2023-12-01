@@ -4,6 +4,8 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 135%;
+  font-style: normal;
+  width: 240px;
 }
 
 .address a {
@@ -12,5 +14,4 @@
 }
 
 .address address {
-  font-style: normal;
 }
